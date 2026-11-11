@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SDD stage launcher">
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="#1f6feb"/>
+  <g fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 42 L26 30 L34 36 L48 20"/>
+  </g>
+  <circle cx="16" cy="42" r="4" fill="#ffffff"/>
+  <circle cx="26" cy="30" r="4" fill="#ffffff"/>
+  <circle cx="34" cy="36" r="4" fill="#ffffff"/>
+  <circle cx="48" cy="20" r="4" fill="#ffffff"/>
+</svg>

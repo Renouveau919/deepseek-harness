@@ -1,0 +1,42 @@
+{
+  "feature": "999-sdd-stage-launcher",
+  "recordedAt": "2026-11-11T15:50:00Z",
+  "evidence": [
+    {
+      "id": "E1",
+      "type": "install",
+      "command": "plugin_manager install_bundle target=plugins/my-sdd-launcher",
+      "result": "application=applied, warnings=[], packageResult.exitCode=0, bundle=@local/my-sdd-launcher@1.0.0"
+    },
+    {
+      "id": "E2",
+      "type": "inventory",
+      "command": "plugin_manager list_bundles",
+      "result": "entry @local/my-sdd-launcher: enabled=true, installed=true, availability=profile, rows=[my-sdd-launcher]"
+    },
+    {
+      "id": "E3",
+      "type": "slot",
+      "command": "cordis_inspect_query client Slots.listSubTree root=conversation.composer.dock",
+      "result": "occupants include { id: my-sdd-launcher, order: 20, active: true }"
+    },
+    {
+      "id": "E4",
+      "type": "static",
+      "command": "node --check client.js; node --check index.js",
+      "result": "both exit 0; package.json, locale/zh.json, locale/en.json parse"
+    },
+    {
+      "id": "E5",
+      "type": "project-health",
+      "command": "mai doctor --project deepseek-harness",
+      "result": "healthy=true, issues=[] (my-ai-infra 0.0.15, tools codex+claudecode)"
+    },
+    {
+      "id": "E6",
+      "type": "manual",
+      "command": "browser click-through (TC3-TC9)",
+      "result": "not executed by agent; requires human verification in DSH Web"
+    }
+  ]
+}

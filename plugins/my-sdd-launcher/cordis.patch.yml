@@ -1,0 +1,3 @@
+- insert:
+    - id: my-sdd-launcher
+      name: '@local/my-sdd-launcher'

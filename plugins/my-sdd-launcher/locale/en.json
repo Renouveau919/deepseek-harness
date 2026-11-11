@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SDD stage launcher",
+    "description": "Starts a my-ai-infra SDD stage task from below the composer."
+  }
+}

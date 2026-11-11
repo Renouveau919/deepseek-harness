@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "SDD 阶段启动器",
+    "description": "在会话输入框下方按阶段发起 my-ai-infra 的 SDD 任务。"
+  }
+}

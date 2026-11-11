@@ -8,6 +8,8 @@ It is built on an **everything-is-a-plugin** architecture and powered by [Cordis
 
 Documentation: [https://deepseek-harness.github.io/deepseek-harness/](https://deepseek-harness.github.io/deepseek-harness/)
 
+> **Homework submission (作业一).** This fork adds the [SDD stage launcher](plugins/my-sdd-launcher/) plugin, built with the my-ai-infra SDD process. Plugin usage, run commands, and the SDD artifacts under `mai-specs/` are documented in [HOMEWORK.md](HOMEWORK.md).
+
 ## Developer preview
 
 DeepSeek Harness is in _developer preview_ and iterating rapidly. **THERE WILL BE COMPATIBILITY-BREAKING CHANGES.**
