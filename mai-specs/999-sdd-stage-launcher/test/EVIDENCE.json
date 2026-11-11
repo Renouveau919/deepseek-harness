@@ -35,8 +35,9 @@
     {
       "id": "E6",
       "type": "manual",
-      "command": "browser click-through (TC3-TC9)",
-      "result": "not executed by agent; requires human verification in DSH Web"
+      "command": "DSH Web 中点击「编码实现」阶段",
+      "result": "输入框下方渲染「SDD 阶段」与 8 个按钮；点击后显示「已填入「编码实现」提示词，按 Enter 发送」",
+      "artifact": "mai-specs/999-sdd-stage-launcher/test/evidence/composer-bar.png"
     }
   ]
 }

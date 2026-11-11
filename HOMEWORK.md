@@ -77,4 +77,5 @@ pnpm dsh web
 ## 验证状态
 
 - 自动证据：插件安装 `application: applied`、bundle 已启用、槽位 `my-sdd-launcher` 注册且 `active: true`、`node --check` 通过。
-- 人工证据：浏览器内点击验证（TC3–TC9）需评审者在自己的 DSH 中执行，见 [ACCEPTANCE.md](mai-specs/999-sdd-stage-launcher/test/ACCEPTANCE.md)。
+- 人工证据：阶段栏与点击填充已在 DSH Web 中确认，截图见 [test/evidence/composer-bar.png](mai-specs/999-sdd-stage-launcher/test/evidence/composer-bar.png)。
+- 尚未验证：是否自动发送、无会话时的回退、刷新后保持；详见 [ACCEPTANCE.md](mai-specs/999-sdd-stage-launcher/test/ACCEPTANCE.md)。
